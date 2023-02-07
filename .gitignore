@@ -1,0 +1,5 @@
+# Ignore les fichiers csv
+donnees/
+
+# Ignore la base de données
+db/db.sqlite
