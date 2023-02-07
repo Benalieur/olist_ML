@@ -1,3 +1,6 @@
+# Ignore l'environnement
+env/
+
 # Ignore les fichiers csv
 donnees/
 
