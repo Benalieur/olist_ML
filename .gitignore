@@ -5,4 +5,4 @@ env/
 donnees/
 
 # Ignore la base de données
-db/db.sqlite
+db/db_bronze.sqlite
