@@ -1,4 +1,4 @@
-def create_db():
+def create_db_bronze():
 
     from sqlalchemy import create_engine 
     from sqlalchemy import Column, String, Integer, Float, ForeignKey
@@ -9,14 +9,14 @@ def create_db():
 
 
     try:
-        os.remove("db.sqlite")
+        os.remove("db_bronze.sqlite")
         print('Base de données bronze supprimée.')
     except:
         print('Pas de base de données bronze.')
 
 
     global engine
-    engine = create_engine("sqlite:///db.sqlite", echo=True)
+    engine = create_engine("sqlite:///db_bronze.sqlite", echo=True)
     global base
     base = declarative_base()
 
@@ -226,3 +226,4 @@ def create_db():
 
 
     base.metadata.create_all(engine)
+
