@@ -6,3 +6,4 @@ donnees/
 
 # Ignore la base de données
 db/db_bronze.sqlite
+db/db_argent.sqlite
