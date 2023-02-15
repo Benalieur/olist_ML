@@ -7,3 +7,6 @@ donnees/
 # Ignore la base de données
 db/db_bronze.sqlite
 db/db_argent.sqlite
+
+# Ignore les graphiques scatter 3d
+graphiques/scatter_3d_robust/
